@@ -848,19 +848,23 @@
   <script async src="https://tally.so/widgets/embed.js"></script>
 
   <script>
-window.TallyConfig = {
-  "formId": "n9Zv7Q",
-  "popup": {
-    "open": {
-      "trigger": "time",
-      "ms": 10000
-    },
-    "doNotShowAfterSubmit": true,
-    "autoClose": 2000,
-    "showOnce": true
-  }
-};
+  window.TallyConfig = {
+    "formId": "n9Zv7Q",
+    "popup": {
+      "emoji": {
+        "text": "👋",
+        "animation": "wave"
+      },
+      "layout": "modal",
+      "autoClose": 3000,
+      "open": {
+        "trigger": "scroll",
+        "scrollPercent": 30
+      }
+    }
+  };
   </script>
+
   <script async="" src="js\js?id=UA-23581568-13"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
